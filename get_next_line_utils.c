@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/15 16:06:00 by slaajour          #+#    #+#             */
-/*   Updated: 2022/03/16 22:23:22 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/11 21:48:38 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,20 +26,20 @@ int	ft_strlen(char *s)
 
 char	*ft_strdup(char *c)
 {
-	char	*zayn;
+	char	*var;
 	int		i;
 
-	zayn = malloc(sizeof(char) * ft_strlen(c) + 1);
-	if (zayn == NULL)
+	var = malloc(sizeof(char) * ft_strlen(c) + 1);
+	if (var == NULL)
 		return (NULL);
 	i = 0;
 	while (i < ft_strlen(c))
 	{
-		zayn[i] = c[i];
+		var[i] = c[i];
 		i++;
 	}
-	zayn[i] = '\0';
-	return (zayn);
+	var[i] = '\0';
+	return (var);
 }
 
 char	*ft_strjoin(char *s1, char *s2)

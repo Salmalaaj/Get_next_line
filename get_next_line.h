@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 06:50:29 by slaajour          #+#    #+#             */
-/*   Updated: 2022/03/16 22:25:39 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/11 21:49:01 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_substr(char *salma, int start, int len);
 int		ft_strlen(char *s);
 char	*ft_strdup(char *c);
 char	*ft_strjoin(char *s1, char *s2);
-char	*dialy(char *str, int c);
+char	*befl(char *str, int c);
 char	*afterline(char *str, char v);
 
 #endif 

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slaajour <slaajour@student.42.fr>          +#+  +:+       +#+        */
+/*   By: salmalaajouri <salmalaajouri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/15 15:55:19 by slaajour          #+#    #+#             */
-/*   Updated: 2022/03/16 22:27:23 by slaajour         ###   ########.fr       */
+/*   Updated: 2024/08/11 21:48:53 by salmalaajou      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-char	*dialy(char *str, int c)
+char	*befl(char *str, int c)
 {
 	int		i;
 
@@ -71,7 +71,7 @@ char	*get_next_line(int fd)
 			saved = ft_strjoin(saved, buf);
 		}
 	}
-	line = dialy(saved, '\n');
+	line = befl(saved, '\n');
 	saved = afterline(saved, '\n');
 	free(buf);
 	return (line);
